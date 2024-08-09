@@ -1,4 +1,4 @@
-module github.com/tpretz/go-zabbix-api
+module github.com/kulikovav/go-zabbix-api
 
 go 1.12
 
