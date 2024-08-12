@@ -4,7 +4,7 @@ package zabbix
 // https://www.zabbix.com/documentation/3.2/manual/api/reference/proxy/object
 type Proxy struct {
 	ProxyID string `json:"proxyid,omitempty"`
-	Host    string `json:"host"`
+	Name    string `json:"Name"`
 	// add rest later
 }
 
