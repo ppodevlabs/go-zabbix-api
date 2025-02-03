@@ -61,6 +61,7 @@ type Host struct {
 	// templates are read back from this one
 	ParentTemplateIDs TemplateIDs `json:"parentTemplates,omitempty"`
 	ProxyID           string      `json:"proxyid,omitempty"`
+	ProxyHostID       string      `json:"proxy_hostid,omitempty"`
 	ProxyGroupID      string      `json:"proxy_groupid,omitempty"`
 	MonitoredBy       string      `json:"monitored_by,omitempty"`
 	Tags              Tags        `json:"tags,omitempty"`
